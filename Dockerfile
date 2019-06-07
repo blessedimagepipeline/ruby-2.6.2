@@ -1,6 +1,6 @@
 FROM buildpack-deps:jessie-curl
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
-fail
+
 ENV RUBY_VERSION="2.6.2"
 
 RUN echo "deb http://deb.debian.org/debian/ jessie main" > /etc/apt/sources.list \
